@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.seeburger.doc.maven</groupId>
+    <artifactId>asciidoc-plugin-macros</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Asciidoctorj Macros - Maven Plugin</name>
+    <description>An extension for asciidoctorj providing some macros available as Maven plugin.</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <asciidoctorj.version>1.5.6</asciidoctorj.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj</artifactId>
+            <version>${asciidoctorj.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <defaultGoal>verify</defaultGoal>
+    </build>
+
+</project>
